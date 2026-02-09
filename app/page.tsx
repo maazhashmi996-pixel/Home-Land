@@ -1,3 +1,4 @@
+import AgentsSection from "@/Components/Sections/AgentSection";
 import BlogSection from "@/Components/Sections/BlogSection";
 import Hero from "@/Components/Sections/hero";
 import PropertySection from "@/Components/Sections/PropertySection";
@@ -11,6 +12,7 @@ export default function Home() {
       <PropertySection />
       <WhyChooseUs />
       <BlogSection />
+      <AgentsSection />
     </div>
   );
 }
